@@ -1,0 +1,25 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "educational materials on NPM theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlenaB-dev/NPM.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "package",
+    "manager"
+  ],
+  "author": "Alena Belokonskaia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlenaB-dev/NPM/issues"
+  },
+  "homepage": "https://github.com/AlenaB-dev/NPM#readme"
+}
