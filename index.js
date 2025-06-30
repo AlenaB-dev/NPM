@@ -13,7 +13,7 @@
  *
  */
 
-const semver = require("semver");
+// const semver = require("semver");
 
 // console.log(semver.valid("1.5.2")); // 1.5.2 // if version is valid
 // console.log(semver.valid("15.2")); // null // if version is invalid
@@ -38,5 +38,5 @@ const semver = require("semver");
 
 // // creating range
 
-const range = semver.Range("^2.22.2");
-console.log(range);
+// const range = semver.Range("^2.22.2");
+// console.log(range);
