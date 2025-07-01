@@ -53,13 +53,27 @@
       }
 
       nav {
+        background-color: #111;
         margin-bottom: 2rem;
+        border-radius: 6px;
       }
 
       nav a {
-        margin-right: 1rem;
-        color: var(--accent-color);
+        color: #fff;
+        margin-right: 20px;
         text-decoration: none;
+        font-size: 16px;
+        display: block;
+        padding: 8px 12px;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        border-bottom: 2px solid transparent;
+        transition: border-bottom 0.3s ease;
+      }
+
+      nav a:hover {
+        background-color: #333;
+        border-bottom: 2px solid #fff;
       }
     </style>
   </head>
@@ -69,9 +83,10 @@
     </button>
     <h1>NPM - Node Package Manager lectures</h1>
     <nav>
-      <a href="packageJSON.html">Package JCON and init</a>
-      <a href="sematicVersion.html">Semantic Versioning</a>
-      <a href="dependencies.html">Dependencies and DevDependencies</a>
+      <a href="packageJSON.html">✨ Package JCON and init</a>
+      <a href="sematicVersion.html">✨ Semantic Versioning</a>
+      <a href="dependencies.html">✨ Dependencies and DevDependencies</a>
+      <a href="package-lock_file.html">✨ The package-lock.json file</a>
     </nav>
 
     <!--practice script-->
